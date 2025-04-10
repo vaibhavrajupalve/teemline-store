@@ -1,0 +1,46 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #111;
+    color: white;
+    padding: 1rem;
+}
+
+.logo {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.about, .products {
+    padding: 2rem 1rem;
+}
+
+.products .product-list {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.products .product {
+    max-width: 200px;
+}
+
+.products .product img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    padding: 1rem;
+}
